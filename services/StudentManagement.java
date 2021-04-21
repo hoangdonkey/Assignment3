@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-
 public class StudentManagement {
     private List<Student> students = null;
 
@@ -22,7 +21,7 @@ public class StudentManagement {
 
             System.out.print("Class: ");
             String cl = sc.nextLine();
-            double maths=-1, physics=-1,chemistry=-1;
+            double maths = -1, physics = -1, chemistry = -1;
 
             do {
                 try {
@@ -107,5 +106,4 @@ public class StudentManagement {
 
     }
 
-    
 }
